@@ -39,7 +39,7 @@ This is an overview of the projects, and what elements we are touching:
 <br />
 
 ## Project 1
-### Setting up the enviroment
+### 1. Setting up the enviroment
 #### Create the project folder
 First of all, we need to create a directory folder where it will be the project.
 
@@ -85,7 +85,7 @@ pip install django
 ```
 <br />
 
-### Start Django project
+### 2. Start Django project
 After installing Django, we need to start our project.
 To **install the project** type:
 ```zsh
