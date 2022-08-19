@@ -61,7 +61,7 @@ cd hello_world
 ```
 <br />
 
-#### Installing the enviroment
+* #### Installing the enviroment
 To install the python enviroment we will use `pipenv`.  
 
 _If you haven't installed `pipenv`, type in the terminal `pip install pipenv`._
@@ -86,7 +86,7 @@ pip install django
 <br />
 
 ### 2. Setting up Django project
-#### Start Django project
+* #### Start Django project
 After installing Django, we need to start our project.
 To **install the project** type:
 ```zsh
