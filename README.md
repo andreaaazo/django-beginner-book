@@ -40,7 +40,7 @@ This is an overview of the projects, and what elements we are touching:
 
 ## Project 1
 ### 1. Setting up the enviroment
-#### Create the project folder
+#### * Create the project folder
 First of all, we need to create a directory folder where it will be the project.
 
 Open your terminal, and **go to your Desktop** folder by typing:
