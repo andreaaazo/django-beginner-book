@@ -17,7 +17,7 @@ All the projects below come from the book.
 <br />
 
 ## Introduction
-Django is an open source python web framework used to handle various connections to the DBMS, extract/insert data, and manage the requests.  
+Django is an open source python web framework used to handle various connections to the DataBase, extract/insert data, manage the requests and a lot of features.  
 It's popularity is due to its friendliness to beginners and professionals.  
 
 Django it's the #7 most popular web framework, and it's so robust to be used by the largest websites in the world: Instagram, Bitbucket, Pinterest.
