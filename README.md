@@ -88,7 +88,7 @@ pip install django
 ### 2. Setting up Django project
 * #### Start Django project
 After installing Django, we need to start our project.
-To **install the project** type:
+To **start the project** type:
 ```zsh
 django-admin startproject hello_world_project .
 ```
