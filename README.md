@@ -8,9 +8,9 @@ I started learning Django by reading "Django for beginners" by William S. Vincen
 All the projects below come from the book.
 
 [Introduction](#introduction) •
-[Project 1](#project_1) •
-[Project 2](#project_2) •
-[Project 3](#project_3)
+[Project 1](#project-1) •
+[Project 2](#project-2) •
+[Project 3](#project-3)
 
 </div>
 
