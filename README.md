@@ -39,7 +39,7 @@ This is an overview of the projects, and what elements we are touching:
 <br />
 
 ## Project 1 - "Hello world"
-[Introduction](#introduction) • [Setting up the enviroment](#project-1) • [Setting up Django project](#project-1)
+[Introduction](#1-introduction) • [Setting up the enviroment](#2-setting-up-the-enviroment) • [Setting up Django project](#3-setting-up-django-project)
 ### 1. Introduction
 This project is perfect to <ins>start understanding how django works</ins>, and its components.  
 We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](#introduction)).  
