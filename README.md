@@ -42,7 +42,7 @@ This is an overview of the projects, and what elements we are touching:
 [Introduction](#1-introduction) • [Setting up the enviroment](#2-setting-up-the-enviroment) • [Setting up Django project](#3-setting-up-django-project)
 ### 1. Introduction
 This project is perfect to <ins>start understanding how django works</ins>, and its components.  
-We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](#introduction)).  
+We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](https://github.com/andreaaazo/django-beginner-book/tree/main/helloworld)).  
 
 Django is the perfect tool to learn the relationships between databases and webservers.  
 It's a 'batteries included' framework (it provides some pre-installed functionalities).  
