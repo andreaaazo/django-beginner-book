@@ -39,7 +39,7 @@ This is an overview of the projects, and what elements we are touching:
 <br />
 
 ## Project 1 - "Hello world"
-[Introduction](#1-introduction) • [Setting up the enviroment](#2-setting-up-the-enviroment) • [Setting up Django project](#3-setting-up-django-project)
+[Introduction](#1-introduction) • [Setting up the enviroment](#2-setting-up-the-environment) • [Setting up Django project](#3-setting-up-django-project)
 ### 1. Introduction
 This project is perfect to <ins>start understanding how django works</ins>, and its components.  
 We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](https://github.com/andreaaazo/django-beginner-book/tree/main/helloworld)).  
@@ -120,19 +120,19 @@ cd hello_world
 ```
 <br />
 
-#### • Installing the enviroment
+#### • Installing the environment
 
-To install the python enviroment we will use `pipenv`.
+To install the python environment we will use `pipenv`.
 
 _If you haven't installed `pipenv`, type in the terminal `pip install pipenv`._
 
-**Install the enviroment** by typing:
+**Install the environment** by typing:
 ```zsh
 pipenv install
 ```
 <br />
 
-To **use the enviroment** type:
+To **use the environment** type:
 ```zsh
 pipenv shell
 ```
@@ -154,7 +154,7 @@ django-admin startproject hello_world_project .
 ```
 <br />
 
-After that your folder should have a file called `manage.py`, a folder called `hello_world_project` and two python enviroment folders: `Pipfile` and `Pipfile.lock` (in some cases there will be a file called `db.sqlite3`).
+After that your folder should have a file called `manage.py`, a folder called `hello_world_project` and two python environment files: `Pipfile` and `Pipfile.lock` (in some cases there will be a file called `db.sqlite3`).
 This is the tree of your folder:
 ```zsh
 .
