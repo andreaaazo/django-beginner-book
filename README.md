@@ -154,7 +154,7 @@ django-admin startproject hello_world_project .
 ```
 <br />
 
-After that your folder should have a file called `manage.py` and a folder called `hello_world_project` (in some cases there will be a file called `db.sqlite3`).
+After that your folder should have a file called `manage.py`, a folder called `hello_world_project` and two python enviroment folders: `Pipfile` and `Pipfile.lock` (in some cases there will be a file called `db.sqlite3`).
 This is the tree of your folder:
 ```zsh
 .
