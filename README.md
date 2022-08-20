@@ -8,7 +8,7 @@ I started learning Django by reading "Django for beginners" by William S. Vincen
 All the projects below come from the book.
 
 [Introduction](#introduction) •
-[Project 1](#project-1) •
+[Project 1](#project-1---hello-world) •
 [Project 2](#project-2) •
 [Project 3](#project-3)
 
