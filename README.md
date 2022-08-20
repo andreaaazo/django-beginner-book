@@ -38,9 +38,68 @@ This is an overview of the projects, and what elements we are touching:
 
 <br />
 
-## Project 1
-### 1. Setting up the enviroment
-* #### Create the project folder
+## Project 1 - "Hello world"
+[Introduction](#introduction) • [Setting up the enviroment](#project-1) • [Setting up Django project](#project-1)
+### 1. Introduction
+This project is perfect to <ins>start understanding how django works</ins>, and its components.  
+We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](#introduction)).  
+
+Django is the perfect tool to learn the relationships between databases and webservers.  
+It's a 'batteries included' framework (it provides some pre-installed functionalities).  
+The main focus for this project is to understand the files that Django provides for us.  
+
+<ins>The perfect way to start a project is by doing it in the terminal.</ins>  
+I know it could be a little bit challenging and scary using the terminal, but once you start to get along with it; creating projects will be a lot more professional and fast.  
+
+Here below I wrote some **useful zsh terminal commands**:  
+
+**Change directory**
+```zsh
+cd name_of_the_directory
+```
+_example: `cd Desktop`_
+
+<br />
+
+**List of the files and folders in the current directory**
+```zsh
+ls
+```
+<br />
+
+**Back in the previous directory**
+```zsh
+cd ..
+```
+<br />
+
+**Create a folder in the current directory**
+```zsh
+mkdir name_of_the_folder
+```
+_example: `mkdir projects`_
+
+<br />
+
+**Remove a file in the current directory**
+```zsh
+rm name_of_the_file
+```
+_example: `rm main.py`_
+
+<br />
+
+**Create a file in the current directory**
+```zsh
+touch name_of_the_file
+```
+_example: `touch main.py`_
+
+<br />
+
+
+### 2. Setting up the enviroment
+####  • Create the project folder
 First of all, we need to create a directory folder where it will be the project.
 
 Open your terminal, and **go to your Desktop** folder by typing:
@@ -55,14 +114,15 @@ mkdir hello_world
 ```
 <br />
 
-**Go in the project** folder by typing in the terminal:
+**Go in the project folder** by typing in the terminal:
 ```zsh
 cd hello_world
 ```
 <br />
 
-* #### Installing the enviroment
-To install the python enviroment we will use `pipenv`.  
+#### • Installing the enviroment
+
+To install the python enviroment we will use `pipenv`.
 
 _If you haven't installed `pipenv`, type in the terminal `pip install pipenv`._
 
@@ -85,8 +145,8 @@ pip install django
 ```
 <br />
 
-### 2. Setting up Django project
-* #### Start Django project
+### 3. Setting up Django project
+#### • Start Django project
 After installing Django, we need to start our project.
 To **start the project** type:
 ```zsh
