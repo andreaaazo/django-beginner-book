@@ -8,9 +8,10 @@ I started learning Django by reading "Django for beginners" by William S. Vincen
 All the projects below come from the book.
 
 [Introduction](#introduction) •
-[Project 1](#project-1---hello-world) •
-[Project 2](#project-2) •
-[Project 3](#project-3)
+[Project 1](https://github.com/andreaaazo/django-beginner-book/tree/main/helloworld) •
+[Project 2](https://github.com/andreaaazo/django-beginner-book/tree/main/pages) •
+[Project 3](https://github.com/andreaaazo/django-beginner-book/tree/main/mb) •
+[Project 4](https://github.com/andreaaazo/django-beginner-book/tree/main/blog)
 
 </div>
 
@@ -32,17 +33,13 @@ This is an overview of the projects, and what elements we are touching:
 | mb            | Models / Database / Templates      |models, Django admin|
 | blog          | Models / Database / Django template language / Basic HTML | HTML, CSS, static, Django admin |
 
-**_I reccomend to go in order_**
 
 <br />
 
 <br />
 
-## Project 1 - "Hello world"
-[Introduction](#1-introduction) • [Setting up the enviroment](#2-setting-up-the-environment) • [Setting up Django project](#3-setting-up-django-project)
+## Useful commands
 ### 1. Introduction
-This project is perfect to <ins>start understanding how django works</ins>, and its components.  
-We'll build a simple website that displays the text "Hello world!", (you can find the full project [here](https://github.com/andreaaazo/django-beginner-book/tree/main/helloworld)).  
 
 Django is the perfect tool to learn the relationships between databases and webservers.  
 It's a 'batteries included' framework (it provides some pre-installed functionalities).  
@@ -110,13 +107,13 @@ cd Desktop
 
 Once we are in the Desktop directory, we need to **create the project folder**:
 ```zsh
-mkdir hello_world
+mkdir name_of_the_project
 ```
 <br />
 
 **Go in the project folder** by typing in the terminal:
 ```zsh
-cd hello_world
+cd name_of_the_project
 ```
 <br />
 
@@ -150,7 +147,7 @@ pip install django
 After installing Django, we need to start our project.
 To **start the project** type:
 ```zsh
-django-admin startproject hello_world_project .
+django-admin startproject name_of_the_project .
 ```
 <br />
 
@@ -161,7 +158,7 @@ This is the tree of your folder:
 ├── Pipfile
 ├── Pipfile.lock
 ├── db.sqlite3
-├── hello_world_project
+├── name_of_the_project
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
